@@ -33,3 +33,9 @@ hello@world:~$ npm i
 hello@world:~$ npm start
 ```
 And now all you gotta do is download Expo in your cellphone, scan the given QRCode and enjoy :D
+
+## BackEnd Routes
+|       Route         |      Method         |      Description   |
+| :-----------------  | :----------------:  | :-----------------|
+|  `/post`            |       POST          | Receive the message and responds to it           |
+|  `/editmsg`         |       POST          | Receive tow parameters (question and answer) and the, add it to it's memory                   |
