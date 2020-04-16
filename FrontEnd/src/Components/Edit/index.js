@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text } from 'react-native';
+import { Text, Alert } from 'react-native';
 import { Button, Input } from 'react-native-elements';
 
 import { Container } from './styles';
@@ -17,6 +17,10 @@ export default function Edit() {
     } catch(e) {
      console.log('Erro ' + e);
     }
+    Alert.alert('Enviado', 'Mensagem enviada com sucesso 😁', [
+      { text: "OK", onPress: () => console.log("OK Pressed") }
+      ],
+      { cancelable: true });
   }
 
   return (
