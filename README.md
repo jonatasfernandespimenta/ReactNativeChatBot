@@ -6,7 +6,7 @@ For this project I've used Python Flask for BackEnd and React Native for FrontEn
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" width="180" alt="React Native"/>
 
-  <img src="https://lh3.googleusercontent.com/proxy/m0IHTUp4yFUYUC6YVRZFR09a4FH01Y_EJTpU2VQKjatB29JX4opnSjt_iBwYirsEokO-LXsqUprmwEUyt5de4GqE1-v-rTplSLX6n5M" width="140" alt="React Native"/>
+  <img src="https://seeklogo.com/images/F/flask-logo-44C507ABB7-seeklogo.com.png" width="140" alt="React Native"/>
 </p>
 
 ## How to run it
