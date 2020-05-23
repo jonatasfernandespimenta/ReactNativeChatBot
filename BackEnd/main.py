@@ -5,13 +5,13 @@ from chatterbot.trainers import ChatterBotCorpusTrainer, ListTrainer
 app = Flask(__name__)
 
 chatbot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAdapter")
-#trainer = ChatterBotCorpusTrainer(chatbot)
-trainer2 = ListTrainer(chatbot)
+trainer = ChatterBotCorpusTrainer(chatbot)
+#trainer2 = ListTrainer(chatbot)
 
 convA = ['Pepino', 'PeeP']
 
-#trainer.train("chatterbot.corpus.portuguese")
-trainer2.train(convA)
+trainer.train("chatterbot.corpus.portuguese")
+#trainer2.train(convA)
 
 
 @app.route('/', methods=['GET'])
