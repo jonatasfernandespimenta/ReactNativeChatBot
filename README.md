@@ -1,6 +1,10 @@
 # ReactNativeChatBot
 A ChatBot with some plus functions.
 
+<p align="center">
+  <img src="app.gif" width="180" alt="Gif"/>
+</p>
+
 ## Technologies used
 For this project I've used Python Flask for BackEnd and React Native for FrontEnd
 <p align="center">
