@@ -8,7 +8,7 @@ chatbot = ChatBot("Chatterbot", storage_adapter="chatterbot.storage.SQLStorageAd
 trainer = ChatterBotCorpusTrainer(chatbot)
 #trainer2 = ListTrainer(chatbot)
 
-convA = ['Pepino', 'PeeP']
+convA = ['Oi', 'Olá, tudo bem?']
 
 trainer.train("chatterbot.corpus.portuguese")
 #trainer2.train(convA)
